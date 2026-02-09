@@ -1,0 +1,32 @@
+<!DOCTYPE ...>   -  this tag defines the document type and HTML Version.
+<html>  -this tag encloses the complete HTML document and  mainly comprises of document header which is represented by <head>
+....</head> and document body which is represented by <body>....</body> tags
+<head>  - this tag represents the documents header which can keep other HTML tags like <title>,<link> etc
+<title> - The <title> tag is used inside the <head> tag to mention the document title.
+<body> - the tag represents the documents body which keeps other HTML tags like <h1>,<div>,<p> etc.
+<h1> -  this tag represents the heading.
+<p> - this tag represents paragraph.
+
+<b> - makes text bold
+<i>  makes text italic
+<strong>  Displays bold text
+<em>  Displays italic text
+<mark> Highlights text
+<q> adds quotation marks
+<br> line break
+<hr> Horizontal line
+<blockquote> Block- level quotation
+<cite>  Cites a ssource
+<sub> subscript text
+<sup> Superscript text
+<code> Displays cpde text
+<address> contact information
+<pre> Performatted text
+<u>  Underlines text
+<kbd> Keyboard input
+<dfn> defination term
+
+vimp for me
+text as a link
+image as a link
+gmail as a link
