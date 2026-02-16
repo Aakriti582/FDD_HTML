@@ -30,3 +30,12 @@ vimp for me
 text as a link
 image as a link
 gmail as a link
+
+attributes to search on
+autoplay
+controls
+loop
+preload :it has three types
+1 none
+2 metadata
+3 auto
