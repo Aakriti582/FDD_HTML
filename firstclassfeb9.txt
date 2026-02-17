@@ -39,3 +39,7 @@ preload :it has three types
 1 none
 2 metadata
 3 auto
+
+semantic and non-semantic tags
+most commonluy nav chai header vitra huncha
+article tag chai moe about blog
