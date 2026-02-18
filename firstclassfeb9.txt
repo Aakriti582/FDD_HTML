@@ -43,3 +43,5 @@ preload :it has three types
 semantic and non-semantic tags
 most commonluy nav chai header vitra huncha
 article tag chai moe about blog
+aside tag is used for extra information
+mostly used on add run
