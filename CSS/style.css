@@ -1,0 +1,28 @@
+/*h1{
+    background-color:pink;
+}
+    */
+
+body{
+    background-color: rgba(5,70,100,0.7);
+}
+.fruits{
+    color:coral;
+
+}
+
+.sport{
+    color:cadetblue;
+}
+
+#title1{
+    color:brown;
+
+}
+
+#title2{
+    color:fuchsia;
+}
+*{
+    color:crimson;
+}
