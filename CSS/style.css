@@ -1,28 +1,26 @@
-/*h1{
-    background-color:pink;
-}
-    */
-
-body{
-    background-color: rgba(5,70,100,0.7);
-}
-.fruits{
-    color:coral;
+#Nepal{
+    font-size: 25px;
+    font-style: oblique;
+    /*font-weight:bold;*/
+    font-weight:450;
+    font-family:cursive;
 
 }
 
-.sport{
-    color:cadetblue;
+#India{
+    font-size: 25px;
+    font-style: normal;
+    /*font-weight:lighter;*/
+    font-weight:100;
+    font-family:sans-serif;
+
+
 }
 
-#title1{
-    color:brown;
-
-}
-
-#title2{
-    color:fuchsia;
-}
-*{
-    color:crimson;
+#China{ssssssss
+    font-size: 25px;
+    font-style: italic;
+    /*font-weight:bolder;*/
+    font-weight:900;
+    font-family:"Helvetica", Arial, "San-serif";
 }
