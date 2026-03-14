@@ -1,0 +1,80 @@
+.nav_tag{
+    
+    background-color:gold;
+    border-radius:12px;
+    padding: 12px;
+    transition:transform 0.5s, background-color 0.2s;
+    
+}
+
+.nav_bar{
+    list-style:none;
+    display:flex;
+    gap:40px;
+    color:rgb(236, 76, 17);
+    justify-content: flex-end;
+    font-family:'Franklin Gothic Medium';
+    font-size:large;
+    flex-wrap:wrap;
+    
+
+}
+
+.nav_bar :hover{
+    /*text-decoration:underline;*/
+    background-color:orangered;
+    transform:scale(1);
+    padding:12px;
+    border-radius:12px;
+    cursor:pointer;
+    
+}
+
+footer{
+    
+    text-align:center;
+    padding:30px;
+}
+h4{
+    text-decoration:underline ;
+    font-size: 30px;
+    color: darkolivegreen;
+    font-family:monospace;
+    overflow: hidden;
+    width:0px;
+    animation: 
+    typing 3.5s steps(30, end) forwards,
+    blink-caret 0.75s step-end infinite;
+    
+}
+/* 1. The Typing Motion */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing:30px;
+    color:gold;
+    align-items: flex-start;
+}
+
+body{
+    background-color:grey;
+}
+a{
+    text-decoration: none;
+    color:darkolivegreen;
+}
+#box{
+
+    box-shadow: 0 0 20px gold;
+    border-radius:15px;
+    padding:20px;
+    margin:20px;
+    font-weight:bold;
+    width:100px;
+}
+   
