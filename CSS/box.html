@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+
+      }
+.pdiv p {
+            color: red;
+}
+.pdiv .ppdiv , .ppdiv ,h1{
+            color: green;
+}
+  h1 {
+            color: blue;
+            text-align: center;
+        }
+    .section1{
+                        width: 100vw; /*takes the optimal width and height reference */
+                        height: 100vh;
+                        display: flex;
+    } 
+    .section1 .container{
+                        width: 50%;
+                        height: 100%;
+                        background-color: red;
+    }
+    .section1 .container1{
+                        background-color: blue;
+                        
+    }   
+    .section2 .container{
+                        width: 100px;
+                        height: 100px;
+                        background-color:gold;
+                        border:2px solid green;
+    }
+    </style>
+</head>
+<body>
+
+
+<h1>Hello, World!</h1>
+<h1>Hello, World!</h1>
+<p class="ppdiv">This is a simple paragraph.</p>
+<div class="pdiv">
+    <p>This is a simple paragraph.</p>
+    <p class="ppdiv">This is a simple paragraph.</p>
+
+</div>
+    <p>This is another simple paragraph.</p>
+
+<!-- for upper 2 boxes -->
+<section class="section1">
+    
+    <div class="container"></div>
+    <div class="container container1"></div>
+</section>
+<!-- for below boxes -->
+<section class="section2">
+   <div class="container"></div>
+   <div class="container"></div>
+</section>
+</body>
+</html>

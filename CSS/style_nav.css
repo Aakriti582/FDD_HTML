@@ -59,6 +59,7 @@ h1{
     letter-spacing:30px;
     color:gold;
     align-items: flex-start;
+    margin:auto;
 }
 
 body{
@@ -76,5 +77,18 @@ a{
     margin:20px;
     font-weight:bold;
     width:100px;
+}
+.section1{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    border-radius:100px;
+}
+.section1 .container{
+    background-color:orangered;
+    width:50%;
+    border-radius:50px;
+    margin:20px;
+
 }
    
