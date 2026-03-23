@@ -52,3 +52,29 @@ positon:static, absolute, relative, fixed, sticky
 z-index:
 relative:original position lai reference lincha
 absolute : ma order dissolve huncha 
+
+
+1inch=96 px
+1inch= 2..5 cm
+1 inch=0.25
+1 inch=6 fc
+
+
+units in CSS
+1. absolute
+a. px
+b. in
+c. mm
+d.cm
+e. pt
+f. pc
+
+2. relative
+em
+rem
+vw
+%
+bira ko parent ko font size lai reference lincha
+body ko default font-size:16px;
+rem le chai body ko default px lincha reference even if specify gare pani
+1 rem=16px

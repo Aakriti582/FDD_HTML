@@ -2,8 +2,9 @@ a{
     text-decoration:none;
 }
 body{
-    line-height:20px;
-}
+    /* line-height:20px;
+
+} */
 .box{
     height:100px;
     width:100px;
@@ -35,3 +36,4 @@ p{
     position:sticky;
     top:60px;
 }
+
