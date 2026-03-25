@@ -78,3 +78,6 @@ bira ko parent ko font size lai reference lincha
 body ko default font-size:16px;
 rem le chai body ko default px lincha reference even if specify gare pani
 1 rem=16px
+
+flex-direction deaals with main axis
+and justify-content controls the main axis
