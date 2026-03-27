@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(177, 204, 195);
+    padding-top: 7vh;
+    }
+
+ul li{
+    background-color:white;
+    list-style: none;
+    
+    
+
+}
+li a{
+    text-decoration:none;
+    color:darkgray;
+    font-weight:bold;
+    font-size: 22px;;
+    display:block;
+    padding:4px;
+}
+li a:hover{
+    background-color:rgb(177, 204, 195);
+    color:black;
+}
+svg{
+    width:18px;
+    height:18px;
+}
+.navbar{
+    background-color:whitesmoke;
+    width:100vw;
+    height:7vh;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 4px rgb(177, 204, 195);
+
+}
+button{
+    background-color: rgb(116, 161, 47);
+    border:1 px solid rgb(116, 161, 47);
+    border-radius:4px;
+    color: black;
+    padding:8px;
+    position:absolute;
+    right:0;
+}
+/* .search{
+    background-color: whitesmoke;
+    border-radius: 14px;
+    border: 1px solid whitesmoke;
+} */
+.name{
+    Display:flex;
+    justify-content:space-between;
+}
+.box li{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    list-style: none;
+    margin:12px;
+    padding:0px 12px;
+}
+.box1{
+
+        display:flex;
+        justify-content: space-between;
+}
+.box2{
+
+        display:flex;
+        justify-content: space-between;
+}
+.box3{
+
+        display:flex;
+        justify-content: space-between;
+}
+.box4{
+
+        display:flex;
+        justify-content: space-between;
+}
+.box5{
+
+        display:flex;
+        justify-content: space-between;
+}
