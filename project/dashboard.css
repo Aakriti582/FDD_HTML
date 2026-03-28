@@ -1,17 +1,27 @@
-ul li{
-    background-color:white;
-    list-style: none;
-    
-    
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.vernav{
+    display:flex;
+    flex-direction:column;
+    align-content:space-between;      
+}
+ul{
+    background-color:cadetblue;
+    list-style: none;
+    width:15vw;
+    height:100vh;
+    
+    
+   
 }
 li a{
     text-decoration:none;
     color:darkgray;
     font-weight:bold;
     font-size: 22px;;
+    padding:4px 12px;
     display:block;
-    padding:4px;
 }
 li a:hover{
     background-color:rgb(177, 204, 195);
