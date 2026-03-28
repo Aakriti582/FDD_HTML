@@ -1,0 +1,23 @@
+ul li{
+    background-color:white;
+    list-style: none;
+    
+    
+
+}
+li a{
+    text-decoration:none;
+    color:darkgray;
+    font-weight:bold;
+    font-size: 22px;;
+    display:block;
+    padding:4px;
+}
+li a:hover{
+    background-color:rgb(177, 204, 195);
+    color:black;
+}
+svg{
+    width:18px;
+    height:18px;
+}

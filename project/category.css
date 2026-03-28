@@ -3,29 +3,7 @@ body{
     padding-top: 7vh;
     }
 
-ul li{
-    background-color:white;
-    list-style: none;
-    
-    
 
-}
-li a{
-    text-decoration:none;
-    color:darkgray;
-    font-weight:bold;
-    font-size: 22px;;
-    display:block;
-    padding:4px;
-}
-li a:hover{
-    background-color:rgb(177, 204, 195);
-    color:black;
-}
-svg{
-    width:18px;
-    height:18px;
-}
 .navbar{
     background-color:whitesmoke;
     width:100vw;
@@ -44,8 +22,12 @@ button{
     border-radius:4px;
     color: black;
     padding:8px;
-    position:absolute;
-    right:0;
+    
+}
+form {
+    display:flex;
+    justify-content:space-between;
+
 }
 /* .search{
     background-color: whitesmoke;
