@@ -81,3 +81,5 @@ rem le chai body ko default px lincha reference even if specify gare pani
 
 flex-direction deaals with main axis
 and justify-content controls the main axis
+
+useful link for icons https://fontawesome.com/ for this we need to import the link from font awesome from https://cdnjs.com/libraries/font-awesome

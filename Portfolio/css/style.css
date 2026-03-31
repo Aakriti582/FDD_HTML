@@ -14,6 +14,7 @@
     position:fixed;
     top:0;
     left:0;
+    background-color:whitesmoke;
 }
 .links{
     display:flex;
@@ -25,8 +26,46 @@ a{
     color:black;
 
 }
+a:hover{
+    color:rgb(135, 97, 170);
+    font-weight: bold;
+}
 .logo{
     font-size:60px;
     font-weight:bold;
-    text-shadow: 1px 1px 2px gray;
+    /* text-shadow: 1px 1px 2px gray; */
+    color:rgb(135, 97, 170);
+
+}
+.main-container{
+    position:relative;
+    top:20vh;
+    display:flex;
+    display:100vw;
+    z-index:-1;
+
+}
+.image{
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    border:5px solid rgb(223, 184, 223);
+    margin:50px;
+    background-image: url("../image/mypic.jfif");
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(152, 116, 185);
+    position:fixed;
+}
+.content{
+    width:40%;
+    position:relative;  /*relative garea parent ko reference vayo absolute gareko vaye root ko reference */
+    left:40%;
+    padding-top:85px;
+}
+h1{
+    color:rgb(135, 97, 170);
+}
+section{
+    padding: 50px 0px;
 }
