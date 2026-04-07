@@ -4,16 +4,15 @@
 .vernav{
     display:flex;
     flex-direction:column;
-    align-content:space-between;      
+    justify-content:space-between; 
+    background-color:cadetblue;  
+    width:15vw;
+    height:100vh;   
 }
 ul{
-    background-color:cadetblue;
+    
     list-style: none;
-    width:15vw;
-    height:100vh;
     
-    
-   
 }
 li a{
     text-decoration:none;
