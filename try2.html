@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            border:6px solid blue;
+             height:100px;
+             width:100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="btn"> Click</div>
+
+    <script>
+        const btn = document.getElementById("btn");
+        btn.addEventListener("mouseover",function(){
+            btn.innerHTML="and my color changed";
+            btn.textContent="you hovered me!";
+            
+            btn.style.backgroundColor="red";
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- onclick haru chai tetekai variable ma kam gardaina ra mouseevent haru use garda geteventlistener nai garnuparcha?
+if haina vane inline onclick haru kasari work garcha? -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+#box{
+width:200px;
+height:100px;
+padding:16px;
+border:1px solid #000;
+}
+</style>
+</head>
+<body>
+    <div id="box">
+
+Move mouse over this box!
+</div>
+
+<script>
+const box = document.getElementById("box");
+
+// Let box listen for mouseover
+box.addEventListener("mouseover", function () {
+  box.textContent = "Mouse is over me!";
+  box.style.backgroundColor= "green";
+  box.style.color = "red";
+});
+ 
+</script>
+</body>
+</html> -->
