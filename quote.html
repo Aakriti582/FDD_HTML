@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+    <style>
+        button{
+            background-color: rgb(108, 172, 228);
+        }
+        .quote{
+            color:white;
+            font-weight:bold;
+            z-index:-1;
+        }
+    </style>
+</head>
+<body>
+    <button> Change BG with Quotes</button>
+    <div class="quote"></div>
+</body>
+<script>
+    const colors = ["red","blue","green","yellow","purple","black","orange","grey"];
+    const quotes = [
+                    "Believe in yourself and all that you are.",
+                    "Small progress is still progress.",
+                    "Discipline beats motivation.",
+                    "Success is the sum of daily efforts.",
+                    "Stay focused and never give up.",
+                    "Your only limit is your mindset.",
+                    "Dream big, start small, act now.",
+                    "Consistency creates confidence."
+];
+
+const button = document.querySelector('button');
+button.addEventListener("click",function(){
+    button.textContent="clicked";
+    let lastindex=0;
+    let randomColor=Math.floor(Math.random()*colors.length);
+    for(let i=0; i<colors.length;i--){
+        if(randomColor===lastindex){
+            randomColor=Math.floor(Math.random()*colors.length);
+        }
+        else{
+            break
+        }
+    }
+    document.body.style.backgroundColor = colors[randomColor];
+    
+    // let randomQuotes=Math.floor(Math.random()*quotes.length)
+    lastindex=randomColor;
+    const div=document.querySelector('div')
+    div.textContent=quotes[lastindex];
+    
+
+})
+
+</script>
+</html>
