@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .navbar{
+            background-color: green;
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+
+        }
+        .links{
+            display:flex;
+            gap:100px;
+
+        }
+        a{
+            text-decoration:none;
+            color:white;
+        }
+        ul{
+            list-style: none;
+        }
+        .logo{
+            font-weight:bold;
+            color:white;
+        }
+        .dropdown{
+            position:absolute;
+            background-color:green;
+            color:white;
+            margin:0px;
+            padding:0px;
+            min-width:150px;
+            display:none;
+        }
+        li:hover .dropdown{
+            display:block;
+
+        }
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+        .gallery-item{
+                width:400px;
+                border:1px solid green;
+                margin:5px;
+        }
+        .gallery-item img{
+            display: block; 
+            width:100%;
+            height:auto;
+        }
+        .description{
+            text-align:center;
+            font-weight:bold;
+        }
+        .gallery-item:hover{
+            box-shadow: 6px 0px 5px rgba(0,0,0,0.8);
+        }
+    </style>
+</head>
+<body>
+    <!-- Dropdown navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                LOGO
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a>
+                        <ul class="dropdown">
+                            <li> <a href="#">  Web development</a></li>
+                            <li> <a href="#">  Web Design</a></li>
+                            <li> <a href="#">  SEO</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>

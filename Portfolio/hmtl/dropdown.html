@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .navbar{
+            background-color: green;
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+
+        }
+        .links{
+            display:flex;
+            gap:100px;
+
+        }
+        a{
+            text-decoration:none;
+            color:white;
+        }
+        ul{
+            list-style: none;
+        }
+        .logo{
+            font-weight:bold;
+            color:white;
+        }
+        .dropdown{
+            position:absolute;
+            background-color:green;
+            color:white;
+            margin:0px;
+            padding:0px;
+            min-width:150px;
+            display:none;
+        }
+        li:hover .dropdown{
+            display:block;
+
+        }
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+        .gallery-item{
+                width:400px;
+                border:1px solid green;
+                margin:5px;
+        }
+        .gallery-item img{
+            display: block; 
+            width:100%;
+            height:auto;
+        }
+        .description{
+            text-align:center;
+            font-weight:bold;
+        }
+        .gallery-item:hover{
+            box-shadow: 6px 0px 5px rgba(0,0,0,0.8);
+        }
+        iframe{
+            width:100%;
+            position:fixed;
+        }
+        main{
+            position:relative;
+            top:10vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dropdown navbar -->
+   <header>
+    <iframe src="navigation.html" frameborder="0"></iframe>
+   </header>
+    <main>
+        <h1 style="text-align:center;"> Eastern Nepal-Ilam</h1>
+        <!-- image-gallery -->
+         <div class="gallery">
+            <div class="gallery-item">
+                <img src="../image/ilam.jfif" alt="ilam sunset">
+                <div class="description">
+                    Ilam
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../image/ilam3.jfif" alt="ilam sunset">
+                <div class="description">
+                    Ilam
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../image/ilam2.jfif" alt="ilam sunset">
+                <div class="description">
+                    Ilam
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../image/ilam4.jfif" alt="ilam sunset">
+                <div class="description">
+                    Ilam
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../image/ilam5.jfif" alt="ilam sunset">
+                <div class="description">
+                        Ilam
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="../image/sunset.jpg" alt="ilam sunset">
+                <div class="description">
+                    Ilam
+                </div>
+            </div>
+         </div>
+    </main>
+</body>
+</html>
