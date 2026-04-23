@@ -88,4 +88,20 @@ console.log(fullName.repeat(4));// repeats the string
 let sport = "footBall";
 console.log(sport[0],sport[1],sport[2],sport[100])//returns undefined- in outofindex
 console.log(sport.charAt(0), sport.charAt(1),sport.charAt(2), sport.charAt(100))//returns empty string -in outofindexx
+console.log(sport.length)
+console.log(sport[sport.length-1])
+console.log(sport[sport.length-1], [sport.length-2],[sport.length -3]);
+
 //2. Slicing
+name="sapu shrestha"
+console.log(name.slice())
+console.log(name.slice(0,4))
+console.log(name.slice(5))
+console.log(name.slice(-4))
+
+let sentence='I love my self.'
+console.log(sentence.includes('le'))//includes just like in membership operator in pyp and returns true if subset is part of a set
+console.log(sentence.indexOf("self"))
+
+let word="    \n      Abishek Kunwar    ";
+console.log(word.trim())//removes extra whitespacces
