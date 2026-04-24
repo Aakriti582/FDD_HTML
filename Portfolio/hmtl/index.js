@@ -28,14 +28,3 @@ let array=["carrot","cucumber","potato","cabbage"]
 array.splice(1,0,"pineapple")
 console.log(array)
 
-//to remove or delete
-array.splice(2,2)
-console.log(array)
-
-//to update
-array.splice(1,1,"Daney")
-console.log(array)
-bhkfv
-dskj bjcs
-sdcbjh 
-dchwjdc 
