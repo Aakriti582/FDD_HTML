@@ -1,4 +1,5 @@
 //Array-collection items non-primitive datatype
+
 const fruits=["apple","bananna","cherry","mango",1, true]
 console.log(fruits, fruits.length, typeof fruits);
 console.log(fruits[3]);
