@@ -35,3 +35,7 @@ console.log(array)
 //to update
 array.splice(1,1,"Daney")
 console.log(array)
+bhkfv
+dskj bjcs
+sdcbjh 
+dchwjdc 
