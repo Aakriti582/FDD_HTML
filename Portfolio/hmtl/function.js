@@ -69,8 +69,57 @@ function calc(c,d){
 }
 
 //2. Function expression
+//in function expression we store a function in a variable and function name is not necessary we need to put semicolon (;) after {} of a function
+//function expresssion is non hoisted function.
 //Display "Hello World' using greet function"
 // const gree = function(){
 //     return "How's your dayy?";
 // };
 // console.log(gree())
+
+//create a function that returns a sum of any two digits
+const sumv = function(num1, num2){
+    return num1+num2;
+};
+console.log(sumv(5,3));
+
+//create a function expression that takes number as argument and return its cube.
+const cube= function(k){
+    return k*k;
+};
+console.log(cube(3))
+//create a function expression that takes cost price and selling price of a product as an argument and return its profit, loss or none.
+const expression = function(cp, sp){
+    if (sp>cp){
+        return `You have profit${sp-cp}`
+    }
+    else if (cp>sp){
+        return `you have losss${cp-sp}`
+    }
+    else{
+        return `none`
+    }
+
+};
+console.log(expression(100,50));
+
+//Arrow function; mostly used for callback
+//syntax "=>"; this function is a short and powerful function used for short function calculation
+//use case in callbacks- map(), filter()...
+//in arrow function no need to write function keyword, return keyword, and {} brackets while declaring the function
+/*
+const funct = (para, para1)=> return value;
+*/
+// Create an arrow function to display an squareroot of number.
+//create an arrow function to calculate addition of two numbers.
+const addition = (n1,n2)=> n1+n2;
+
+console.log(addition(10,10));
+//create an arrow function to display "Hello World"
+const display= ()=> "Hello world";
+console.log(display())
+
+
+
+const square = num=>num**2;
+console.log(square(4))
