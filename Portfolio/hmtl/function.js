@@ -119,7 +119,5 @@ console.log(addition(10,10));
 const display= ()=> "Hello world";
 console.log(display())
 
-
-
 const square = num=>num**2;
 console.log(square(4))
