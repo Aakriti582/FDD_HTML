@@ -1,0 +1,22 @@
+Logic Explanation
+The code is broken down into four distinct "logical layers" to ensure it is clean and reliable:
+
+1. The Animation Layer (slow_print)
+Instead of using a standard print(), we use a function that iterates through characters with time.sleep(). This makes the interface feel more like an application and less like a static text file.
+
+2. The Math Engine (calculate)
+This is the "brain." It uses a conditional structure (if/elif/else) zto determine which math operation to run.
+
+Critical Logic: It includes a specific check for division. In math, dividing by zero is undefined; without the if n2 == 0 check, the program would stop working and show a scary red error message. Here, we catch it and return a friendly warning instead.
+
+3. The Safety Net (try/except)
+The "strongest" part of this code is the Exception Handling.
+
+If a user types "hello" instead of "10", a normal calculator would crash.
+
+The try block attempts to convert inputs to a float. If it fails, the except ValueError block catches the mistake, informs the user, and restarts the loop instead of dying.
+
+4. The Infinite Loop (while True)
+To make the tool useful, it is wrapped in a loop. It performs a calculation and then uses a conditional check on the user's input (y/n) to decide whether to clear the logic and start over or break the loop and exit.
+
+Pro-tip: By using float() instead of int(), this calculator handles both whole numbers and decimals, making it significantly more versatile for real-world math!
