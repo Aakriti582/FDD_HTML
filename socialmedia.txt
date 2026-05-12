@@ -1,0 +1,9 @@
+Encapsulation: By using a class (SocialFeed), all the post data and the actions (methods) are bundled together. This prevents "spaghetti code" where variables are floating around globally.
+
+Data Validation: The add_post method checks if the input is empty (content.strip() == ""). A weak logic would allow users to post blank lines.
+
+Reverse Chronology: In display_feed, I used reversed(self.posts). This mimics real social media platforms like X (Twitter) or Facebook, where the most recent update appears at the top.
+
+Timestamping: Instead of just storing text, we store a dictionary containing the time of the post. This provides a professional "log" feel to the CLI.
+
+The Infinite Loop: The while True loop in the main() function ensures the program doesn't just crash or end after one action; it stays alive until you explicitly choose to exit.
